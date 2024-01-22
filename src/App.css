@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.home-bg{
+   height: 800px;
+    background-image: url(../public/intro-bg.jpg);
+    background: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+   
+  
+}
+
+.one{
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 172px;
+  
+}
+
+.two{
+  color: white;
+  font-size: 88px;
+  text-align: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.three{
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 25px;
+  
+}
+
+.btnOne{
+  background-color: yellow;
+  padding: 18px 32px;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+/* home section css end here  */
+
+/* about me section css start here  */
+.about{
+  padding: 150px;
+}
+.aboutTitle{
+  margin: 0 auto;
+  width: 100px;
+  background-color: yellow;
+  text-align: center;
+  font-size: 18px;
+  padding: 8px 16px;
+}
+
+.headOne{
+  text-align: center;
+  color: rgb(42, 41, 41);
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.aboutStyle{
+  width: 700px;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.flex-about{
+  display: flex;
+
+  align-items: center;
+}
+
+.flex-about .para{
+  font-size: 150px;
+  margin-left: 300px;
+}
+
+.flex-about .paraStyle{
+  font-size: 35px;
+  margin-left: 250px;
+}
+
+/* projext section css start  */
+
+.project{
+  background-color: gainsboro;
+  padding: 150px;
+}
+
+.projecttitle{
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.project-det{
+  text-align: center;
+  width: 350px;
+}
+
+.projectDescription{
+  font-size: 22px;
+}
+
+.project-all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* project section css end  */
+
+/* resume  section css start  */
+
+.resume{
+  padding: 80px 0;
+}
+
+
+
+
+.content{
+ position: relative;
+}
+
+.yellowLine::after{
+  position: absolute;
+  content: "";
+  height: 580px;
+  width: 3px;
+  background-color: #f5df4e;
+  left: -28px;
+  
+}
+
+.resume-det{
+  
+  width: 550px;
+}
+.education{
+ color: gray;
+ font-size: 24px;
+ font-family: sans-serif;
+}
+
+.educationStyle{
+  font-family: sans-serif;
+}
+
+/* HorizintalLine Css Start  */
+
+.progress-container {
+  font-family: Arial, sans-serif; /* or any desired font-family */
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.label-left,
+.label-right {
+  color: grey; /* replace with the exact color sampled from the image */
+  font-size: 16px; /* adjust as needed */
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e6e6e6; /* light gray background, sample from image for exact match */
+  border-radius: 4px; /* slightly rounded corners if it appears so in the image */
+  height: 20px; /* define height */
+  position: relative;
+}
+
+.progress {
+  background-color: #f0db4f; /* yellow color, sample from image for exact match */
+  height: 100%;
+  border-radius: 4px 0 0 4px; /* rounded corners on the left side */
+}
+
+ 
+
+ /* skill section css start here  */
+
+ .skill{
+  padding: 80px ;
+ }
+
+
+.mySkill{
+  padding: 10px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  width: 580px;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
